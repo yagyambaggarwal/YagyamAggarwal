@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Unlock&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html"><img class="signature_logo" src="signature (2).png" alt="signature_logo"></a>
+        <ul class="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#conectme">Connect</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="profilepic.jpg" alt="profilepic">
+         <h2>Hello, I'm Yagyam B Aggarwal</h2>
+        <p>Java Developer | Web Developer | DSA Enthusiast</p>
+        <div id="hero_subpart">
+        <a href="#projects" class="btn">View My Work</a>
+        <a href="Yagyam Resume.pdf" class="btn">See Resume</a>
+    </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I'm currently a second-year BTech CSE student at Dr. Akhilesh Das Gupta Institute of Professional Studies, Delhi. I've completed my schooling at St. Xavier's School Shahbad, Delhi. As an A+ student, I am passionate about web development and mastering data structures and algorithms using Java.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill-item">
+                <h3>Web Technologies</h3>
+                <p>HTML5, CSS3, JavaScript, Responsive Design, Node.js, Bootstrap, Flexbox, Grid</p>
+            </div>
+            <div class="skill-item">
+                <h3>Java & DSA</h3>
+                <p>Proficiency in Data Structures, Algorithms, and Java Development</p>
+            </div>
+            <div class="skill-item">
+                <h3>Tools & Platforms</h3>
+                <p>Git, GitHub, VS Code</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-item Redditlicious">
+                <h3>Redditlicious</h3>
+                <p>Modernday personalised newsteller, Without noise.📰</p>
+                <div class="projectLinks">
+                <!-- <a href="https://github.com/yagyambaggarwal/Redditlicious" class="btn">View on GitHub</a> -->
+                <a href="https://youtu.be/Xjlg0R2q2HI" class="btn">See it in Action</a>
+            </div>
+            </div>
+            <div id="LetsDoIt" class="project-item">
+                <h3>Let's Do It</h3>
+                <p>Keep Track of all your important To-Do tasks.🛠️</p>
+                <div class="projectLinks">
+                <!-- <a href="https://github.com/yagyambaggarwal/LetsDoIt" class="btn">View on GitHub</a> -->
+                <a href="https://yagyambaggarwal.github.io/LetsDoIt/" class="btn">See it in Action</a>
+            </div>
+            </div>
+            <div id="VibeMatch" class="project-item">
+                <h3>Vibe Match</h3>
+                <p>Find your Adorable.❤️</p>
+                <p>Test Your Love</p>
+                <div class="projectLinks">
+                <!-- <a href="https://github.com/yagyambaggarwal/VibeMatch" class="btn">View on GitHub</a> -->
+                <a href="https://yagyambaggarwal.github.io/VibeMatch/" class="btn">See it in Action</a>
+            </div>
+            </div>
+            <div id="DamodarBhaiya" class="project-item">
+                <h3>DamodarBhaiya</h3>
+                <p>Website for a fast food corner who aspires to reach masses🍔.</p>
+                <div class="projectLinks">
+                  <!-- <a href="https://github.com/yagyambaggarwal/damodarBhaiya" class="btn">View on GitHub</a> -->
+                  <a href="https://yagyambaggarwal.github.io/damodarBhaiya/" class="btn">See it in Action</a>
+                </div>   
+            </div>
+            <div id="Real-E" class="project-item">
+                <h3>Real-E</h3>
+                <p>For an ambitious teenagers who aspires to do everything💪.</p>
+             <div class="projectLinks">
+                <!-- <a href="https://github.com/yagyambaggarwal/Real-e" class="btn">View on GitHub</a> -->
+                <a href="https://changelife.netlify.app/" class="btn">See it in Action</a>
+            </div>
+            </div>
+            <div id="resume" class="project-item">
+                <a href="Yagyam Resume.pdf" class="btn">See Resume</a>
+            </div>
+        </div>
+    </section>
+
+<!-- Education Section -->
+<section id="education" class="education">
+    <h2>Education</h2>
+    <div class="education-item">
+        <h3>Dr. Akhilesh Das Gupta Institute of Professional Studies</h3>
+        <p>Pursuing BTech in Computer Science</p>
+        <p>Currently in the 3rd semester.</p>
+    </div>
+    <div class="education-item">
+        <h3>St. Xavier's School, Delhi</h3>
+        <p>High School (2020 - 2022)</p>
+        <p>Scored 93% in 12th grade and represented the school on various podiums.</p>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div id="conectme">
+            <div><a href="https://www.linkedin.com/in/yagyam-bhupesh-aggarwal-4636772b0/"><img src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin"></a></div>
+            <div><a href="https://github.com/yagyambaggarwal"><img src="https://img.icons8.com/windows/32/github.png" alt="github"></a></div>
+            <div><a href="mailto:vishuaggarwal219@gmail.com"><img src="https://img.icons8.com/color/48/gmail-new.png" alt="Gmail"></a></div>
+            <div><a href="https://75dayschallengedatastructuresandalgorithms.quora.com/"><img src="https://img.icons8.com/color/48/quora.png" alt="Quora"></a></div>
+            <div><a href="https://www.instagram.com/yagyamb.aggarwal/"><img src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="instagram"></a></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Yagyam'sWorld. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
