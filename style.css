@@ -187,7 +187,10 @@ body {
     text-align: center;
     /* color: grey; */
 }
-
+.skills-logo{
+    height: 3rem;
+    width: 3rem;
+}
 .skill-item h3 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
@@ -230,7 +233,7 @@ body {
     padding-top: 0;
     font-size: 2.5rem;
     color: #000000;
-    margin-bottom: 3%;
+    margin-bottom: 15%;
 }
 .projects p{
     color: grey;
@@ -245,10 +248,10 @@ body {
 }
 .Redditlicious::before{
     content: "";
-    background: url('Screenshot\ 2024-09-14\ 115457.png');
+    background: url('sources/Redditlicious.png');
     position:absolute;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     height: 100%;
     width: 100%;
     z-index: 2;
@@ -256,10 +259,10 @@ body {
 }
 #LetsDoIt::before{
     content: "";
-    background: url('Screenshot\ 2024-09-14\ 121059.png');
+    background: url('sources/Letsdoit.png');
     position:absolute;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     height: 100%;
     width: 100%;
     z-index: 2;
@@ -267,11 +270,11 @@ body {
 }
 #VibeMatch::before{
     content: "";
-    background: url('Screenshot\ 2024-09-14\ 122436.png');
+    background: url('sources/VibeMatch.png');
     position:absolute;
     background-size: cover;
     /* background-repeat: no-repeat; */
-    background-position: top;
+    background-position: center;
     height: 100%;
     width: 100%;
     z-index: 2;
@@ -279,11 +282,11 @@ body {
 }
 #DamodarBhaiya::before{
     content: "";
-    background: url('Screenshot\ 2024-09-14\ 123236.png');
+    background: url('./sources/Damodar\ \(1\).png');
     position:absolute;
     background-size: cover;
     /* background-repeat: no-repeat; */
-    background-position: top;
+    background-position: center;
     height: 100%;
     width: 100%;
     z-index: 2;
@@ -291,19 +294,19 @@ body {
 }
 #Real-E::before{
     content: "";
-    background: url('Screenshot\ 2024-09-14\ 122239.png');
+    background: url('sources/Real-E.png');
     position:absolute;
     background-size: cover;
     /* background-repeat: no-repeat; */
-    background-position: top;
+    background-position: center;
     height: 100%;
     width: 100%;
     z-index: +2;
-    opacity: 1;
+    opacity: 10;
 }
 #resume::before{
     content: "";
-    background: url('Screenshot\ 2024-09-14\ 122651.png');
+    background: url('sources/Resume.png');
     position:absolute;
     background-size: cover;
     /* background-repeat: no-repeat; */
