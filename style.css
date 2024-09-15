@@ -205,9 +205,11 @@ body {
     padding: 4rem 2rem;
     background-color: #f1f1f1;
     text-align: center;
+    margin-top: 0;
 }
 
 .project-list {
+    padding-top: 3%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
@@ -233,7 +235,7 @@ body {
     padding-top: 0;
     font-size: 2.5rem;
     color: #000000;
-    margin-bottom: 15%;
+    padding-bottom: 6%;
 }
 .projects p{
     color: grey;
